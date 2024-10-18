@@ -14,7 +14,7 @@ def countdown_time(seconds):
     #print the time on same line
         time.sleep(1)   #wait for 1 second
         seconds -= 1  #Decrement the total time by 1 second
-    print(("Time's up")) #Print message when countdown finishes
+    print(("Time up")) #Print message when countdown finishes
 
 if __name__ == '__main__':
     #Input validation
